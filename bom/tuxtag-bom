@@ -1,0 +1,9 @@
+Note: All components are TH components. Headers are not listed.
+-1x ESP32-C3 Super Mini
+-3x 220Ohm Resistor
+-3x 3mm LED
+-1x Passive Buzzer
+-1x Vibration Motor
+-1x 2N2222 Transistor
+-1x 1N4148 Flyback Diode
+-1x Custom PCB

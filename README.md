@@ -3,7 +3,7 @@
 Open source BLE tracker electronics.
 
 ## Status
-Work in progress — schematic and PCB design phase.
+Design phase completed. Still undergoing testing.
 
 ## Contents
 - `schematic/` — Circuit diagrams
