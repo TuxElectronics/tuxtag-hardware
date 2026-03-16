@@ -1581,12 +1581,6 @@
 		(uuid "67d9ba61-d785-46db-8db0-6b2fbe103163")
 	)
 	(junction
-		(at 115.57 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79a0b118-74ee-4ec1-b848-208bbba48b86")
-	)
-	(junction
 		(at 163.83 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1597,6 +1591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87cbbece-ebe5-4de0-970f-f11db30ad8bb")
+	)
+	(junction
+		(at 115.57 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95200292-d9d8-41ca-9092-98ada3f107c7")
 	)
 	(junction
 		(at 185.42 76.2)
@@ -1614,7 +1614,7 @@
 		(at 113.03 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fddeb23d-d0cc-4d2f-a226-1945f40b3f30")
+		(uuid "f0e712a3-b193-49a2-a0f7-31349104b084")
 	)
 	(wire
 		(pts
@@ -1658,13 +1658,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 80.01) (xy 119.38 80.01)
+			(xy 91.44 74.93) (xy 90.17 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "191b2f8e-7a92-48dd-8f4b-c172c672672a")
+		(uuid "1736fee8-63c8-4189-ae29-c093be5798c3")
 	)
 	(wire
 		(pts
@@ -1728,6 +1728,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 82.55) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6fe200-af3f-44d2-972b-23768ddcbde0")
+	)
+	(wire
+		(pts
 			(xy 166.37 64.77) (xy 154.94 64.77)
 		)
 		(stroke
@@ -1745,6 +1755,16 @@
 			(type default)
 		)
 		(uuid "36a1517a-2405-4fa5-8fab-d1c6cc91b60b")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 101.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397dd05c-1165-42db-b7be-a02d8576b602")
 	)
 	(wire
 		(pts
@@ -1778,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 80.01) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c2cd4e-21fe-4e22-96e4-5549cbd0d666")
+	)
+	(wire
+		(pts
 			(xy 182.88 78.74) (xy 182.88 81.28)
 		)
 		(stroke
@@ -1795,6 +1825,16 @@
 			(type default)
 		)
 		(uuid "4ea7932b-0098-41c9-8b10-c98cc938d68b")
+	)
+	(wire
+		(pts
+			(xy 113.03 73.66) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fabecec-a6bd-452d-80c6-01498c3e40a3")
 	)
 	(wire
 		(pts
@@ -1868,7 +1908,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 118.11 77.47)
+			(xy 113.03 77.47) (xy 115.57 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1938,16 +1978,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 53.34) (xy 115.57 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b88e3c6-a4e9-44c2-b7f6-6c1030b4f26f")
-	)
-	(wire
-		(pts
 			(xy 161.29 62.23) (xy 154.94 62.23)
 		)
 		(stroke
@@ -1955,6 +1985,16 @@
 			(type default)
 		)
 		(uuid "7d18e9ab-089b-4fcd-bac5-73f2c26da4a4")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 118.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdfa100-a739-43bb-90c7-c8341d08f8fa")
 	)
 	(wire
 		(pts
@@ -1988,6 +2028,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 62.23) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925f53fd-7456-4cb1-94d3-0d1fb10ff9b8")
+	)
+	(wire
+		(pts
 			(xy 185.42 83.82) (xy 175.26 83.82)
 		)
 		(stroke
@@ -2008,13 +2058,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 66.04) (xy 113.03 77.47)
+			(xy 115.57 53.34) (xy 115.57 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c35a7e76-478a-438f-ad56-fbcf460624ca")
+		(uuid "c5142742-13f0-4ae6-a0d0-83c14aa054e5")
 	)
 	(wire
 		(pts
@@ -2048,6 +2098,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 80.01) (xy 91.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d212ed8e-731b-4f5f-8c07-07502e1a2f6b")
+	)
+	(wire
+		(pts
 			(xy 181.61 59.69) (xy 185.42 59.69)
 		)
 		(stroke
@@ -2078,23 +2138,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 115.57 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e573dfd9-7cd2-456a-b504-cac64df0f1d6")
-	)
-	(wire
-		(pts
 			(xy 107.95 77.47) (xy 113.03 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9cd0ec2-9a5f-4b0e-bb15-b763fc94cf8b")
+		(uuid "e573dfd9-7cd2-456a-b504-cac64df0f1d6")
 	)
 	(wire
 		(pts
@@ -2145,6 +2195,16 @@
 			(type default)
 		)
 		(uuid "fda34114-598b-4df4-abfb-8a2d60642461")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd42557-64a1-4eeb-b64e-5a0ace539158")
 	)
 	(wire
 		(pts
@@ -2380,6 +2440,146 @@
 			(project ""
 				(path "/e4538e54-a1de-44a8-81eb-f2ba540294be"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33871c95-6099-4c94-ae3d-7ba352cdd9b5")
+		(property "Reference" "R4"
+			(at 118.11 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 118.11 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 113.792 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e11aa364-e7c6-46d6-8f61-e460f32dcafc")
+		)
+		(pin "2"
+			(uuid "d52d030a-dfa4-4441-a2b0-bb583dec738c")
+		)
+		(instances
+			(project "tuxtag-pcb"
+				(path "/e4538e54-a1de-44a8-81eb-f2ba540294be"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67abe6dc-fadf-4850-9b12-eca66995d5b4")
+		(property "Reference" "R2"
+			(at 92.71 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 92.71 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 88.392 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b192d1d-fa2f-4801-8f06-4c8e9c7286b9")
+		)
+		(pin "2"
+			(uuid "f015bf58-4aa6-49f0-b28d-310fc46d5da2")
+		)
+		(instances
+			(project "tuxtag-pcb"
+				(path "/e4538e54-a1de-44a8-81eb-f2ba540294be"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2678,6 +2878,76 @@
 			(project "tuxtag-pcb"
 				(path "/e4538e54-a1de-44a8-81eb-f2ba540294be"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e518dbe-43b8-48b0-9a03-c7968f9e1bd8")
+		(property "Reference" "R3"
+			(at 115.57 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 115.57 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 111.252 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08c95d95-fdd2-40b7-bc9c-15d44821fe1f")
+		)
+		(pin "2"
+			(uuid "12b282ba-1e6a-4376-8451-d02833399a6d")
+		)
+		(instances
+			(project "tuxtag-pcb"
+				(path "/e4538e54-a1de-44a8-81eb-f2ba540294be"
+					(reference "R3")
 					(unit 1)
 				)
 			)
