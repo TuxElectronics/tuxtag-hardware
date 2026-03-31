@@ -3679,6 +3679,17 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 140.647935 78.487136)
+		(end 138.891232 79.444039)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "430b5711-9124-43ec-987c-ab5daf921ee0")
+	)
 	(gr_rect
 		(start 117.472639 43.873858)
 		(end 143.27995 81.043639)

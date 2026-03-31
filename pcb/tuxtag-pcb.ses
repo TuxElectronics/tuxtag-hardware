@@ -1,0 +1,327 @@
+(session "tuxtag-pcb.ses"
+  (base_design "tuxtag-pcb.dsn")
+  (placement
+    (resolution um 10)
+    (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+      (place R4 1323389 -713540 front 270)
+      (place R3 1349036 -764501 front 90)
+    )
+    (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::1
+      (place R2 1347684 -791883 front 180)
+    )
+    (component OVLAW4CB7:LEDRD254W50D305H520P
+      (place D3 1398294 -529760 front 0)
+      (place D2 1398294 -474490 front 0)
+      (place D4 1398294 -585030 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (place J3 1379009 -726973 front 0)
+    )
+    (component "ESP32-C3_SUPERMINI_TH:MODULE_ESP32-C3_SUPERMINI_TH"
+      (place U1 1280391 -580601 front 0)
+    )
+    (component "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+      (place J2 1402267 -658203 front 90)
+    )
+    (component P2N2222A:TO92
+      (place Q1 1220597 -771817 front 0)
+    )
+    (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::2
+      (place R1 1300383 -764580 front 90)
+    )
+    (component "1N4148:DO35-7"
+      (place D1 1269560 -752778 front 90)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::1
+      (place J1 1206990 -721048 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version 9.0.3)
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(J1-Pin_1)"
+        (wire
+          (path F.Cu 2000
+            1206990 -721048
+            1206990 -732565
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1207897 -771817
+            1207897 -733472
+            1206990 -732565
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1206990 -721048
+            1218507 -721048
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1269560 -714678
+            1259939 -714678
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1259939 -714678
+            1242052 -732565
+            1227144 -732565
+            1218507 -723928
+            1218507 -721048
+          )
+        )
+      )
+      (net "Net-(J1-Pin_2)"
+        (wire
+          (path B.Cu 2000
+            1402267 -638203
+            1402267 -647220
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1269560 -790878
+            1279181 -790878
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1279181 -790878
+            1288802 -781257
+            1366577 -781257
+            1414203 -733631
+            1414203 -652373
+            1409050 -647220
+            1402267 -647220
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1402267 -638203
+            1402267 -629186
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1356591 -481601
+            1399707 -524717
+            1399707 -626626
+            1402267 -629186
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1269560 -790878
+            1269560 -758218
+            1232390 -721048
+          )
+        )
+      )
+      (net "Net-(U1-GPIO7)"
+        (wire
+          (path B.Cu 2000
+            1385594 -474490
+            1376537 -474490
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1376537 -474490
+            1376537 -475622
+            1357858 -494301
+            1242291 -494301
+            1204191 -532401
+          )
+        )
+      )
+      (net "Net-(J2-Pin_1)"
+        (wire
+          (path F.Cu 2000
+            1402267 -658203
+            1402267 -692198
+            1379009 -715456
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1402267 -658203
+            1414084 -646386
+            1414084 -588120
+            1410994 -585030
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1323389 -764340
+            1323389 -739348
+            1349036 -713701
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1379009 -726973
+            1379009 -715456
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1379009 -726973
+            1367492 -726973
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1349036 -713701
+            1354220 -713701
+            1367492 -726973
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1356591 -507001
+            1346790 -516802
+            1346790 -711455
+            1349036 -713701
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1233297 -771817
+            1290963 -771817
+            1294024 -774878
+            1312851 -774878
+            1323389 -764340
+          )
+        )
+      )
+      (net "Net-(U1-GPIO8)"
+        (wire
+          (path B.Cu 2000
+            1385594 -529760
+            1376537 -529760
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1204191 -557801
+            1216891 -545101
+            1361196 -545101
+            1376537 -529760
+          )
+        )
+      )
+      (net "Net-(U1-GPIO6)"
+        (wire
+          (path F.Cu 2000
+            1296884 -791883
+            1310444 -778323
+            1310444 -613254
+            1204191 -507001
+          )
+        )
+      )
+      (net "Net-(J3-Pin_2)"
+        (wire
+          (path B.Cu 2000
+            1379009 -752373
+            1373478 -752373
+            1336294 -715189
+            1336294 -711475
+            1233420 -608601
+            1204191 -608601
+          )
+        )
+      )
+      (net "Net-(Q1-Pad2)"
+        (wire
+          (path B.Cu 2000
+            1220597 -752767
+            1261396 -752767
+            1300383 -713780
+          )
+        )
+      )
+      (net "Net-(U1-GPIO9)"
+        (wire
+          (path F.Cu 2000
+            1204191 -583201
+            1281922 -660932
+            1281922 -746120
+            1281923 -746120
+            1300383 -764580
+          )
+        )
+      )
+      (net "Net-(D2-PadC)"
+        (wire
+          (path F.Cu 2000
+            1323389 -713540
+            1323389 -500917
+            1358873 -465433
+            1401937 -465433
+            1410994 -474490
+          )
+        )
+      )
+      (net "Net-(D3-PadC)"
+        (wire
+          (path F.Cu 2000
+            1410994 -529760
+            1420064 -538830
+            1420064 -707675
+            1388066 -739673
+            1373864 -739673
+            1349036 -764501
+          )
+        )
+      )
+      (net "Net-(D4-PadA)"
+        (wire
+          (path F.Cu 2000
+            1385594 -594087
+            1385594 -691310
+            1338932 -737972
+            1338932 -783131
+            1347684 -791883
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1385594 -585030
+            1385594 -594087
+          )
+        )
+      )
+    )
+  )
+)
