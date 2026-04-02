@@ -11,7 +11,8 @@ Design phase completed. Still undergoing testing.
 - `bom/` — Bill of materials
 
 ## Photo
-<img width="344" height="356" alt="pcb-screenshot" src="https://github.com/user-attachments/assets/76806b3b-57c1-4260-8fef-b24d954fa37c" />
+<img width="359" height="362" alt="pcb-screenshot" src="https://github.com/user-attachments/assets/a092129c-4ecd-4ec1-830b-e2a68714fa0e" />
+
 
 ## License
 CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S)
